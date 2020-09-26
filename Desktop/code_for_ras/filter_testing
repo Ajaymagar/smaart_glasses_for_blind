@@ -1,0 +1,19 @@
+import cv2
+
+
+
+def medianblur(image):
+	return cv2.medianBlur(image,5)
+
+ajay = cv2.imread('Capture.jpg')
+
+
+vijay = medianblur(ajay)
+
+while True:
+
+	vijay_1 = cv2.imshow('blur',vijay)
+	break
+
+
+

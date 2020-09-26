@@ -1,0 +1,7 @@
+OCR with Pytesseract and OpenCV
+
+Pytesseract is a wrapper for Tesseract-OCR Engine. It is also useful as a stand-
+alone invocation script to tesseract, as it can read all image types supported
+by the Pillow and Leptonica imaging libraries, including jpeg, png, gif, bmp,
+tiff, and others. More info about Python approach read here. The code for this
+tutorial can be found in this repository.
